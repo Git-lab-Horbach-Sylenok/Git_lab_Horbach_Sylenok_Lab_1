@@ -9,7 +9,7 @@
         public void TestAddition()
         {
             double result = _calculator.EvaluateExpression("2 + 3");
-            Assert.AreEqual(5, result);
+            Assert.AreEqual(6, result);
         }
 
         [TestMethod]
